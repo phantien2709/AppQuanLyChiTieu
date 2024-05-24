@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:id="@+id/txtChiTietThu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chi Tiết Chi"
+                style="@style/TitleTheme"
+                android:paddingTop="10dp"
+                android:paddingLeft="50dp"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:id="@+id/imgCloseXemChi"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                app:tint="#FF0000"
+                android:src="@drawable/icon_clear"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+            <TextView
+                android:id="@+id/txtLoaiThu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Loại Chi:             "
+                android:textStyle="bold"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:id="@+id/txtDlShowLoaiChiView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="aaaaaaaaaaaaaaaa"
+                android:textSize="18sp"
+                android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+            <TextView
+                android:id="@+id/txtTenLoaiThu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tên Khoản Chi: "
+                android:textStyle="bold"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:id="@+id/txtDlShowNameKhoanChiView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="aaaaaaaaaaaaaaaa"
+                android:textSize="18sp"
+                android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+            <TextView
+                android:id="@+id/txtSoTien"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Số Tiền:               "
+                android:textStyle="bold"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:id="@+id/txtDlShowSoTienViewChi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="aaaaaaaaaaaaaaaa"
+                android:textSize="18sp"
+                android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+            <TextView
+                android:id="@+id/txtNgayThu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ngày Chi:           "
+                android:textStyle="bold"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:id="@+id/txtDlShowNgayChiView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="aaaaaaaaaaaaaaaa"
+                android:textSize="18sp"
+                android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

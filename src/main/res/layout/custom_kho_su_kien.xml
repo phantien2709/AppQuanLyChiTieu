@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txtTenTaiKhoan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tran Van Tuan"
+            android:textSize="30dp"
+            />
+        <ImageView
+            android:id="@+id/imageXoa"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="170dp"
+            android:src="@drawable/baseline_more_vert_24"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txtNoiDungSuKien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="noi dung bai "
+        android:textSize="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/imgSuKien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:id="@+id/linerNhungNguoiYeuThich"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/baseline_favorite_24"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"
+                />
+
+            <TextView
+                android:id="@+id/txtLuotTim"
+                android:layout_width="50dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="30dp" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/txtBinhLuanSuKien"
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:text="0"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_marginLeft="70dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="bình luận"
+            android:textSize="30dp"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp">
+        <LinearLayout
+            android:id="@+id/linearYeuThich"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/imageFavorite"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/baseline_favorite_border_24"
+                android:layout_marginLeft="15dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Thích"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearBinhLuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/imageFavorite"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/baseline_sms_24"
+                android:layout_marginLeft="70dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Bình luận"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

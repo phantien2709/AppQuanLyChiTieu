@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label=""
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TranVanTuan">
+        <activity
+            android:name=".service.DanhSachCacThanhVienActivity"
+            android:exported="false" />
+        <activity
+            android:name=".service.SuKienActivity"
+            android:exported="false" />
+        <activity
+            android:name=".service.MainMoiNguoiActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".service.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".service.MainAdminActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".service.LoadActivity"
+            android:exported="true">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN"
+                    android:theme="@style/AppTheme.NoActionBar" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".service.BaoCaoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".service.ForgotPassActivity"
+            android:exported="false" />
+        <activity
+            android:name=".service.RegisterActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".service.MainMeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".service.LoginActivity" />
+    </application>
+
+</manifest>
